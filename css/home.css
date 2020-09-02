@@ -1,0 +1,523 @@
+#page-wrapper {
+	display:flex;
+	flex-direction: column;
+	min-height: 100%;
+	width: 90%;
+	margin:0 auto;
+}
+
+#welcome {
+	 display: flex;
+	 /* overflow: hidden; */
+	 /* height: 100vh; */
+}
+
+ #welcome .welcome-left {
+	 width: 45%;
+}
+
+ #welcome .welcome-left .logo h1 {
+	 background: white;
+	 color: black;
+	 margin-top: 1px;
+	 border: 4px solid black;
+	 width: fit-content;
+	 padding: 30px 10px;
+	 font-size: 20px;
+	 width: 100px;
+	 text-align: center;
+}
+
+#welcome .welcome-left .left-text{
+	padding: 150px 70px;
+	display:flex;
+	flex-direction: column;
+}
+ #welcome .welcome-left h1 {
+	 text-transform: uppercase;
+	 font-size: 50px;
+	 margin-bottom: 25px;
+}
+ #welcome .welcome-left p {
+	 font-size: 20px;
+	 margin-bottom: 25px;
+	 line-height: 1.2em;
+}
+ #welcome .welcome-right {
+	 display: flex;
+	 flex-direction: column;
+	 width: 55%;
+}
+ #welcome .welcome-right .welcome-right-container {
+	 position: relative;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 width: 100%;
+	 z-index: 2;
+}
+ #welcome .welcome-right .welcome-right-container .nav-bar {
+	 flex-grow: 1;
+	 font-family: 'Source Code Pro', monospace;
+	 font-size: 50px;
+	 margin-bottom: 10px;
+}
+ #welcome .welcome-right .welcome-right-container .nav-bar .links {
+	 display: flex;
+	 justify-content: space-evenly;
+	 align-items: center;
+}
+ #welcome .welcome-right .welcome-right-container .nav-bar .links li {
+	padding: 10px 0;
+	text-align: center;
+}
+ #welcome .welcome-right .welcome-right-container .nav-bar .links li a {
+	 font-weight: 900;
+	 font-size: 16px;
+	 text-transform: uppercase;
+	 color: black;
+	 text-decoration: none;
+}
+ #welcome .welcome-right .welcome-right-container .nav-bar .links li .log-in {
+	 border: 3px solid black;
+	 padding: 10px;
+}
+
+#welcome .welcome-right img{
+	width: 100%;
+}
+ #recognition {
+	 height: 225px;
+	 margin-bottom: 100px;
+	 background: #c1f0df;
+}
+
+#recognition .media{
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+ #recognition .media img {
+	 height: 50px;
+}
+ #info {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 align-items: center;
+	 margin-bottom: 100px;
+}
+ #info .info-container {
+	 text-align: center;
+}
+
+ #info .info-container h2 {
+	 font-weight: 400;
+	 font-size: 25px;
+	 margin-bottom: 25px;
+}
+ #info .info-container h1 {
+	 font-size: 70px;
+	 text-transform: uppercase;
+	 font-weight: 900;
+}
+ #info .info-container .services {
+	 display: grid;
+	 max-width: 700px;
+	 margin: 104px auto;
+	 grid-auto-columns: 1fr;
+	 grid-template-columns: 1fr 1fr;
+	 grid-column-gap: 50px;
+	 grid-row-gap: 20px;
+}
+
+ #info .info-container .services .box {
+	 padding: 20px;
+	 display: flex; 
+	 flex-direction: column;
+	 align-items: center;
+}
+ #info .info-container .services .box img {
+	 height: 100px;
+	 width: 100px;
+	 margin-bottom: 20px;
+	 max-width: 100%;
+}
+ #info .info-container .services .box h1 {
+	 font-size: 30px;
+	 margin-bottom: 20px;
+}
+ #info .info-container .services .box p {
+	 font-size: 20px;
+	 width: 100%;
+}
+ #info .info-container .btn {
+	 font-size: 20px;
+	 display: inline-block;
+}
+ #testimonial {
+	 position: relative;
+	 right: 0;
+	 left: 0;
+	 bottom: 0;
+	 display: flex;
+	 justify-content: center;
+	 margin-bottom: 100px;
+}
+
+ #testimonial .css-carousel {
+	 height: 60%;
+	  width: 800px; 
+}
+ #testimonial .css-carousel .carousel-slides, #testimonial .css-carousel .carousel-inner, #testimonial .css-carousel .carousel-item {
+	 height: 100%;
+}
+ #testimonial .css-carousel .carousel-item {
+	 background-repeat: no-repeat;
+	 background-position: center;
+	 background-size: cover;
+	 position: relative;
+	 background: #0e2b21;
+	 
+}
+ #testimonial .css-carousel .carousel-item .center {
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	 text-align: center;
+	 position: relative;
+	 flex-direction: column;
+	 justify-items: center;
+}
+ #testimonial .css-carousel .carousel-item .center .title {
+	 color: #fff;
+	 font-size: 40px;
+	 font-weight: 900;
+	 letter-spacing: 10px;
+	 text-transform: uppercase;
+	 background-color: rgba(0, 0, 0, 0.1);
+	 padding: 20px 20px;
+}
+ #testimonial .css-carousel .carousel-item .center .img-desc {
+	 display: flex;
+	 padding: 50px 50px;
+	 padding-bottom: 70px;
+	 align-items: center;
+}
+ #testimonial .css-carousel .carousel-item .center .img-desc img {
+	 height: 370px;
+}
+ #testimonial .css-carousel .carousel-item .center .img-desc p {
+	 padding: 20px 50px;
+	 font-size: 1.2rem;
+	 color: white;
+	 text-align: left;
+}
+ #testimonial .css-carousel {
+	 position: relative;
+}
+ #testimonial .css-carousel input[name="carousel"] {
+	 display: none;
+}
+ #testimonial .css-carousel .carousel-nav {
+	 position: absolute;
+	 bottom: 20px;
+	 left: 0;
+	 right: 0;
+	 text-align: center;
+	 z-index: 1;
+}
+ #testimonial .css-carousel .carousel-nav label {
+	 display: inline-block;
+	 margin: 0 10px;
+	 width: 20px;
+	 height: 20px;
+	 border: 2px solid #fff;
+	 border-radius: 50%;
+	 cursor: pointer;
+	 transition: background-color 0.25s;
+}
+ #testimonial .css-carousel #carousel-1:checked ~ .carousel-nav label[for="carousel-1"] {
+	 background-color: #fff;
+}
+ #testimonial .css-carousel #carousel-2:checked ~ .carousel-nav label[for="carousel-2"] {
+	 background-color: #fff;
+}
+ #testimonial .css-carousel #carousel-3:checked ~ .carousel-nav label[for="carousel-3"] {
+	 background-color: #fff;
+}
+ #testimonial .css-carousel #carousel-4:checked ~ .carousel-nav label[for="carousel-4"] {
+	 background-color: #fff;
+}
+ #testimonial .css-carousel .carousel-slides {
+	 width: 100%;
+	 overflow: hidden;
+}
+ #testimonial .css-carousel .carousel-slides .carousel-inner {
+	 width: 400%;
+	 transition: margin 1s;
+}
+ #testimonial .css-carousel .carousel-slides .carousel-item {
+	 float: left;
+	 width: 25%;
+}
+ #testimonial .css-carousel #carousel-1:checked ~ .carousel-slides .carousel-inner {
+	 margin-left: 0%;
+}
+ #testimonial .css-carousel #carousel-2:checked ~ .carousel-slides .carousel-inner {
+	 margin-left: -100%;
+}
+ #testimonial .css-carousel #carousel-3:checked ~ .carousel-slides .carousel-inner {
+	 margin-left: -200%;
+}
+ #testimonial .css-carousel #carousel-4:checked ~ .carousel-slides .carousel-inner {
+	 margin-left: -300%;
+}
+ #footer {
+	 display:flex;
+	 justify-content: center;
+	 background: #0e2b21;
+	 color: white;
+	 position: relative;
+	 bottom: 0;
+	 padding: 70px 0;
+	 font-family: 'Source Code Pro', monospace;
+	 font-weight: 100;
+}
+
+#footer .footer-wrapper{
+	width: 90%;
+}
+ #footer .footer-content {
+	 display: flex;
+	 justify-content: space-around;
+}
+ #footer .footer-content .footer-section {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+#footer .footer-content .footer-section:nth-child(1) {
+	justify-content: space-between;
+}
+
+ #footer .footer-content .footer-section h1, #footer .footer-content .footer-section h2 {
+	 color: white;
+}
+ #footer .footer-content .footer-section h1 {
+	 text-transform: uppercase;
+	 font-size: 1.2em;
+	 font-weight: 400;
+	 text-decoration: underline;
+}
+
+#footer .footer-content .footer-section .quick-links {
+	margin-bottom: 20px;
+}
+ #footer .footer-content .footer-section p {
+	 width: 300px;
+	 font-family: 'Rubik', sans-serif;
+	 font-size: 1rem;
+	 line-height: 1.2em;
+	 font-weight: 100;
+	 color: white;
+}
+ #footer .footer-content .footer-section.about h1 span {
+	 color: white;
+}
+ #footer .footer-content .footer-section.about .contact span {
+	 font-family: 'Rubik', sans-serif;
+	 font-weight: 100;
+	 display: block;
+	 font-size: 1em;
+}
+ #footer .footer-content .footer-section.about .socials a {
+	 color: white;
+	 text-decoration: none;
+	 width: 20px;
+	 height: 20px;
+	 padding-top: 5px;
+	 display: inline-block;
+	 font-size: 1.5em;
+}
+ #footer .footer-content .footer-section.about .socials a:hover {
+	 border: 1px solid white;
+	 color: white;
+	 transition: all 0.3s;
+}
+ #footer .footer-content .footer-section.links ul a {
+	 font-family: 'Rubik', sans-serif;
+	 font-weight: 400;
+	 display: block;
+	 font-size: 1.1em;
+	 transition: all 0.3s;
+	 text-decoration: none;
+	 color: white;
+}
+ #footer .footer-content .footer-section.links ul a:hover {
+	 margin-left: 15px;
+	 transition: all 0.3s;
+}
+ #footer .footer-content .footer-section.contact-form .contact-input {
+	 width: 100%;
+	 background: white;
+	 color: #0e2b21;
+	 margin-bottom: 10px;
+	 line-height: 1.5em;
+	 padding: 0.7rem 1.2rem;
+	 border: none;
+	 font-size: 1.3em;
+	 font-family: 'Rubik', sans-serif;
+	 font-weight: 100;
+}
+ #footer .footer-content .footer-section.contact-form .contact-input:focus {
+	 background: white;
+	 color: #272727;
+}
+ #footer .footer-content .footer-section.contact-form .contact-btn {
+	 float: right;
+	 box-shadow: none;
+}
+ #footer .footer-bottom {
+	 height: 50px;
+	 width: 100%;
+	 text-align: center;
+	 position: relative;
+	 bottom: 0px;
+	 left: 0px;
+	 padding-top: 40px;
+	 font-size: 1rem;
+}
+
+
+ @media only screen and (max-width: 1024px){
+	 #welcome{
+		 flex-direction: column;
+		 width: 100%;
+	 }
+
+	 #welcome .welcome-left{
+		 width:100%;
+		 padding: 0 0 25px 0;	
+	 }
+
+	#welcome .welcome-left .left-text{
+		align-items: center;
+		text-align: center;
+	}
+	 #welcome .welcome-right {
+		width: 100%;
+	 }
+
+	 #welcome .welcome-right img{
+		 position:static;
+	 }
+
+	 #recognition{
+		 margin: 50px 0 50px 0;
+	 }
+
+	 #recognition .media {
+		flex-direction: column;
+	}
+
+	#recognition .media img {
+		height: 35px;
+	}
+	#info .info-container h2 {
+		font-size: 20px;
+	}
+	#info .info-container h1 {
+		font-size: 50px;
+	}
+
+	#info .info-container .services .box img {
+		height: 100px;
+	}
+
+	#info .info-container .services .box h1{
+		font-size: 20px;
+	}
+
+	#info .info-container .services .box p{
+		font-size: 15px;	
+	}
+
+	#footer .footer-content .footer-section h1 {
+		font-size: 1.2em;
+	}
+	#footer .footer-content .footer-section p {
+		font-size: 1em;
+		
+	}
+	#footer .footer-content .footer-section.about .contact span{
+		font-size: 1em;
+	} 
+	#footer .footer-content .footer-section.about .socials a{
+		font-size: 1.2em;
+		width: 20px;
+	}
+	#footer .footer-content .footer-section.links ul a {
+		font-size: 1em;
+	}
+	#footer .footer-content .footer-section.contact-form .contact-btn{
+		font-size: 0.8em;	
+		padding: .5em 1em;
+	}
+	#footer .footer-content .footer-section.contact-form .contact-input{
+		font-size: 1em;
+	}
+
+	
+ }
+
+ @media only screen and (max-width: 700px){
+
+	#testimonial .css-carousel .carousel-item .center .img-desc img{
+		height: 300px;
+	}
+
+	#testimonial .css-carousel .carousel-item .center .img-desc p{
+		font-size: 1em;
+	}
+
+
+	#footer .footer-content{
+		flex-direction:column;
+		align-items: center;
+		text-align:center;
+	}
+
+	#footer .footer-section{
+		margin: 0 0 40px 0;
+	}
+
+	#footer .footer-content .footer-section:nth-child(1) h1,
+	#footer .footer-content .footer-section:nth-child(1) p{
+		margin-bottom:20px;
+	}
+
+	#footer .footer-content .footer-section p{
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#testimonial .css-carousel .carousel-item .center .title{
+		font-size: 2em;
+	}
+
+	#testimonial .css-carousel .carousel-item .center .img-desc img{
+		height:250px;
+	}
+	#testimonial .css-carousel .carousel-item .center .img-desc{
+		/* padding: 20px; */
+	}
+	#testimonial .css-carousel .carousel-item .center .img-desc p{
+		padding: 0;
+		margin-left: 20px;
+		font-size: 1em;
+	}
+}
