@@ -1,4 +1,4 @@
 ---
 permalink: /index.html
 ---
-# Chess-Landing-Pagee
+# Chess-Landing-Page
